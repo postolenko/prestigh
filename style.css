@@ -1,0 +1,823 @@
+@charset "utf-8";
+
+/*------------------*/
+/*-- Fonts --*/
+/*------------------*/
+
+
+@font-face {
+    font-family: "Arctika_Scriptregular";
+    src: url("fonts/arctika_script_0.eot");
+    src: url("fonts/arctika_script_0.eot?#iefix") format("embedded-opentype"),
+         url("fonts/arctika_script_0.woff2") format("woff2"),
+         url("fonts/arctika_script_0.woff") format("woff"),
+         url("fonts/arctika_script_0.ttf") format("truetype"),
+         url("fonts/arctika_script_0.svg#arctika_scriptregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Light_Proregular";
+    src: url("fonts/etelkalightpro.eot");
+    src: url("fonts/etelkalightpro.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkalightpro.woff2") format("woff2"),
+         url("fonts/etelkalightpro.woff") format("woff"),
+         url("fonts/etelkalightpro.ttf") format("truetype"),
+         url("fonts/etelkalightpro.svg#etelka_light_proregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Light_Proitalic";
+    src: url("fonts/etelkalightpro-italic.eot");
+    src: url("fonts/etelkalightpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkalightpro-italic.woff2") format("woff2"),
+         url("fonts/etelkalightpro-italic.woff") format("woff"),
+         url("fonts/etelkalightpro-italic.ttf") format("truetype"),
+         url("fonts/etelkalightpro-italic.svg#etelka_light_proitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Medium_Proregular";
+    src: url("fonts/etelkamediumpro.eot");
+    src: url("fonts/etelkamediumpro.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkamediumpro.woff2") format("woff2"),
+         url("fonts/etelkamediumpro.woff") format("woff"),
+         url("fonts/etelkamediumpro.ttf") format("truetype"),
+         url("fonts/etelkamediumpro.svg#etelka_medium_proregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Medium_Proitalic";
+    src: url("fonts/etelkamediumpro-italic.eot");
+    src: url("fonts/etelkamediumpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkamediumpro-italic.woff2") format("woff2"),
+         url("fonts/etelkamediumpro-italic.woff") format("woff"),
+         url("fonts/etelkamediumpro-italic.ttf") format("truetype"),
+         url("fonts/etelkamediumpro-italic.svg#etelka_medium_proitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Narrow_Light_ProRg";
+    src: url("fonts/etelkanarrowlightpro.eot");
+    src: url("fonts/etelkanarrowlightpro.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkanarrowlightpro.woff2") format("woff2"),
+         url("fonts/etelkanarrowlightpro.woff") format("woff"),
+         url("fonts/etelkanarrowlightpro.ttf") format("truetype"),
+         url("fonts/etelkanarrowlightpro.svg#etelka_narrow_light_proRg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Narrow_Light_Proitalic";
+    src: url("fonts/etelkanarrowlightpro-italic.eot");
+    src: url("fonts/etelkanarrowlightpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkanarrowlightpro-italic.woff2") format("woff2"),
+         url("fonts/etelkanarrowlightpro-italic.woff") format("woff"),
+         url("fonts/etelkanarrowlightpro-italic.ttf") format("truetype"),
+         url("fonts/etelkanarrowlightpro-italic.svg#etelka_narrow_light_proitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Narrow_Medium_ProIt";
+    src: url("fonts/etelkanarrowmediumpro-italic.eot");
+    src: url("fonts/etelkanarrowmediumpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkanarrowmediumpro-italic.woff2") format("woff2"),
+         url("fonts/etelkanarrowmediumpro-italic.woff") format("woff"),
+         url("fonts/etelkanarrowmediumpro-italic.ttf") format("truetype"),
+         url("fonts/etelkanarrowmediumpro-italic.svg#etelka_narrow_medium_proIt") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Wide_Light_Proregular";
+    src: url("fonts/etelkawidelightpro.eot");
+    src: url("fonts/etelkawidelightpro.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkawidelightpro.woff2") format("woff2"),
+         url("fonts/etelkawidelightpro.woff") format("woff"),
+         url("fonts/etelkawidelightpro.ttf") format("truetype"),
+         url("fonts/etelkawidelightpro.svg#etelka_wide_light_proregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Wide_Light_Proitalic";
+    src: url("fonts/etelkawidelightpro-italic.eot");
+    src: url("fonts/etelkawidelightpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkawidelightpro-italic.woff2") format("woff2"),
+         url("fonts/etelkawidelightpro-italic.woff") format("woff"),
+         url("fonts/etelkawidelightpro-italic.ttf") format("truetype"),
+         url("fonts/etelkawidelightpro-italic.svg#etelka_wide_light_proitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: "Etelka_Wide_Medium_Proitalic";
+    src: url("fonts/etelkawidemediumpro-italic.eot");
+    src: url("fonts/etelkawidemediumpro-italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/etelkawidemediumpro-italic.woff2") format("woff2"),
+         url("fonts/etelkawidemediumpro-italic.woff") format("woff"),
+         url("fonts/etelkawidemediumpro-italic.ttf") format("truetype"),
+         url("fonts/etelkawidemediumpro-italic.svg#etelka_wide_medium_proitalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Roman";
+  src: url("fonts/HelveticaNeueCyr-Roman.eot");
+  src: url("fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+       url("fonts/HelveticaNeueCyr-Roman.woff") format("woff"),
+       url("fonts/HelveticaNeueCyr-Roman.ttf") format("truetype"),
+       url("fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman") format("svg"),
+       url("fonts/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*-------------------------------------------*/
+/* BASIC SETUP */
+/*-------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    color: #000000;
+    font-size: 13px;
+    line-height: 21px;
+
+}
+
+
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    color: #333333;
+    background: rgba(255, 255, 255, 1);
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    min-height: 100%;
+    /*min-width: 100%;*/
+/*    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-position: center top;*/
+    background: rgba(255, 255, 255, 1);
+    margin: 60px auto 90px auto;
+    -webkit-box-shadow: 10px 16px 62px 0px rgb( 159, 164, 170 );
+    -moz-box-shadow: 10px 16px 62px 0px rgb( 159, 164, 170 );
+    -ms-box-shadow: 10px 16px 62px 0px rgb( 159, 164, 170 );
+    -o-box-shadow: 10px 16px 62px 0px rgb( 159, 164, 170 );
+    box-shadow: 10px 16px 62px 0px rgb( 159, 164, 170 );
+    position: relative;
+}
+
+
+.content {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
+
+
+
+::-webkit-input-placeholder {color:#a5abb8;}
+::-moz-placeholder          {color:#a5abb8;}
+:-moz-placeholder           {color:#a5abb8;}
+:-ms-input-placeholder      {color:#a5abb8;}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity .3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity .3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity .3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity .3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity .3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity .3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity .3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .3s ease;}
+
+.animation-delay-onload {
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+.animation-delay {
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -o-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+/*-------------------------------------------*/
+/* ----- DEFAULT STYLES ------ */
+/*-------------------------------------------*/
+
+section {
+    position: relative;
+}
+
+h1 {
+
+}
+
+button {
+
+}
+
+h2 {
+    font-family: "Arctika_Scriptregular", Verdana, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    color: #313131;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 40px;
+    height: 9px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2:before {
+    background-image: url(img/left_ornament.png);
+    margin: 0 2% 0 0;
+}
+
+h2:after {
+    background-image: url(img/right_ornament.png);
+    margin: 0 0 0 2%;
+}
+
+p {
+    font-family: "Etelka_Light_Proregular", Verdana, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+    padding: 10px 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover,
+button:active,
+a:hover,
+a:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*-------------------------------------------*/
+/* ----- REUSABLE COMPONENTS ------ */
+/*-------------------------------------------*/
+
+.row {
+    padding: 0;
+    max-width: 1000px;
+    /*margin: 0 auto;*/
+}
+
+.inner-row {
+    width: 88%;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------*/
+/* ----- PRELOAD ------ */
+/*-------------------------------------------*/
+
+
+.preload-bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    z-index: 10;
+}
+
+.preload-bg h1 {
+    font-family: "Arctika_Scriptregular", Verdana, Arial, sans-serif;
+    font-size: 73px;
+    line-height: 80px;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    margin: -40px auto 0 auto;
+}
+
+
+
+
+/*-------------------------------------------*/
+/* ----- HEADER ------ */
+/*-------------------------------------------*/
+
+
+.header {
+    background: rgba(255, 255, 255, 1);
+    font-size: 0;
+    line-height: 0;
+}
+
+.logo-header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    padding: 0 0 0 2.5%;
+}
+
+.logo-link {
+    font-family: "Arctika_Scriptregular", Verdana, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    color: #3f4041;
+}
+
+.header-contacts {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18%;
+    height: 100%;
+}
+
+.header-contacts ul {
+
+}
+
+.header-contacts ul li {
+
+}
+
+.header-contacts ul li a {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "HelveticaNeueCyr-Roman", Verdana, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #282828;
+}
+
+.mail-header  {
+
+}
+
+.mail-header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 18px;
+    margin: 0 2% 0 0;
+    background-image: url(img/sprite.png);
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.tel-header {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 18px;
+    margin: 0 2% 0 0;
+    background-image: url(img/sprite.png);
+    /*background-size: 100%;*/
+    background-repeat: no-repeat;
+    background-position: 0px -21px;
+}
+
+.menu-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 57%;
+    /*height: 100%;*/
+}
+
+.navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navigation li {
+    display: inline-block;
+    vertical-align: middle;
+    /*min-height: 65px;*/
+    /*height: 65px;*/
+    height: 100%;
+}
+
+.navigation li a {
+    /*display: block;*/
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: "Etelka_Light_Proregular", Verdana, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #010101;
+    /*padding: 0 20px;*/
+        padding: 23px 20px;
+
+    -webkit-transition-property: background color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+    background: rgba(255, 255, 255, 1);
+    color: #010101;
+}
+
+.navigation li a:active, 
+.navigation li a.active {
+    background: rgba(83, 83, 81, 1);
+    color: #ffffff;
+}
+
+.navigation li a:hover {
+    background: rgba(83, 83, 81, 1);
+    color: #ffffff;
+}
+
+/*-------------------------------------------*/
+/* ----- CONTENT ------ */
+/*-------------------------------------------*/
+
+.promo-box {
+    display: block;
+    height: 400px;
+    background-image: url(img/promo_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    padding: 30px 0;
+}
+
+.section-1 {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 21px 13px rgba( 0, 0, 0, .1 );
+    -moz-box-shadow: 0px 0px 21px 13px rgba( 0, 0, 0, .1 );
+    -ms-box-shadow: 0px 0px 21px 13px rgba( 0, 0, 0, .1 );
+    -o-box-shadow: 0px 0px 21px 13px rgba( 0, 0, 0, .1 );
+    box-shadow: 0px 0px 21px 13px rgba( 0, 0, 0, .1 );
+    padding: 10px 0;
+}
+
+.section-1:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 29px;
+    background-image: url(img/top_border_bg.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    top: -29px;
+    left: 0;
+}
+
+.section-1:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 9px;
+    background-image: url(img/bottom_border_bg.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+}
+
+.thumbnails-box {
+    font-size: 0;
+    line-height: 0;
+    padding: 5px 1.5%;
+}
+
+.thumbnail {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    text-align: center;
+    padding: 20px 2.5%;
+
+    -webkit-transition-property: color box-shadow transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color box-shadow transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color box-shadow transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color box-shadow transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color box-shadow transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 8px 4px rgba( 0, 0, 0, .1 );
+}
+
+.thumbnail:hover img {
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    transform: scale(1.06);
+}
+
+.thumb-photo {
+    display: block;
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.thumb-photo img {
+    display: block;
+    max-height: 170px;
+    width: auto;
+    /*height: auto;*/
+    margin: 0 auto;
+
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.thumbnail a {
+    font-family: "Etelka_Light_Proregular", Verdana, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4b4b4b;
+    text-decoration: none;
+
+    -webkit-transition-property: color border-bottom;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color border-bottom;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color border-bottom;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color border-bottom;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color border-bottom;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.thumbnail a:link,
+.thumbnail a:visited {
+    color: #010101;
+    text-decoration: none;
+}
+
+.thumbnail a:active, 
+.thumbnail a.active {
+    color: #09639f;
+    text-decoration: underline;
+}
+
+.thumbnail a:hover {
+    color: #09639f;
+    text-decoration: underline;
+}
+
+.article {
+    padding: 30px 4%;
+}
+
+.article p {
+    font-family: "Etelka_Light_Proregular", Verdana, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+    padding: 10px 0;
+}
+
+.bottom-img p {
+    margin: -20px 0 0 0;
+    padding: 0;
+}
+
+.bottom-img {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+
+/*-------------------------------------------*/
+/* ----- FOOTER ------ */
+/*-------------------------------------------*/
+
+
+.footer {
+    display: block;
+    width: 100%;
+    background: rgba(83, 83, 81, 1);
+    position: absolute;
+    bottom: 0;
+    padding: 15px 0;
+}
+
+.footer p {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    padding: 0 30%;
+    font-family: "HelveticaNeueCyr-Roman", Verdana, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer .left-col {
+    display: block;
+    width: 30%;
+    float: right;
+    text-align: right;
+}
+
+.footer .left-col a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .left-col h2 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "HelveticaNeueCyr-Roman", Verdana, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.footer .left-col h2:before,
+.footer .left-col h2:after {
+    display: none;
+}
+
+.footer .left-col img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 64px;
+    padding: 0 12px;
+}
