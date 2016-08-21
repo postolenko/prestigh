@@ -1,1 +1,2 @@
-# http://postolenko.github.io/algoritm/prestigh.html
+# http://postolenko.github.io/prestigh/index.html
+
